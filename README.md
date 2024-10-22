@@ -1,6 +1,6 @@
 # optAgent
 
-# Verilog Code Optimizer
+Verilog Code Optimizer
 
 # Overview
  This Python-based agent is designed to optimize Verilog code to enhance operational frequency, ensuring improved performance while maintaining the existing functionality. It uses the OpenAI GPT model to generate multiple optimized versions of the input Verilog code.
@@ -14,7 +14,7 @@ pip install openai
 To use this script, you need a Verilog file you wish to optimize. The script takes a single command line argument, which is the path to the Verilog file.
 
 # Run the script as follows:
-python3 agent.py <path_to_verilog_file>
+`python3 agent.py <path_to_verilog_file>`
 
 The script will generate up to 6 optimized versions of the input Verilog file, each aimed at increasing the operational frequency of the design.
 
